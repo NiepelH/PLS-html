@@ -1,0 +1,21 @@
+<p>
+  Input:
+</p>
+<p>
+  <!-- binding from model to view AND view to model (2-way binding)-->
+  <ion-input [(ngModel)]="txtValue" name="test"></ion-input>
+</p>
+<p>
+  <!-- binding element-property from model to view -->
+  <ion-input [value]="txtValue2"></ion-input>
+</p>
+<p>
+  <!-- binding from model to view as simple text output-->
+  Die Variable txtValue: {{txtValue}}
+</p>
+<p>
+  <!-- binding from view to model via event-handler, calls the method in the model -->
+  <ion-button (click)="btnWriteClick($event)">Write</ion-button>
+</p>
+
+  
