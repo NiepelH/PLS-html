@@ -1,0 +1,7 @@
+{
+  "name": "PLS-html",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
